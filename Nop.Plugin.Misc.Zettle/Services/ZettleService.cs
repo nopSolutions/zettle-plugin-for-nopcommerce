@@ -987,7 +987,7 @@ namespace Nop.Plugin.Misc.Zettle.Services
                             if (applicationInfo.Type.Equals("ApplicationConnectionRemoved", StringComparison.InvariantCultureIgnoreCase) ||
                                 applicationInfo.Type.Equals("PersonalAssertionDeleted", StringComparison.InvariantCultureIgnoreCase))
                             {
-                                warning = "The application was disconnected from Zettle organization. You need to reconfigure the plugin.";
+                                warning = "The application was disconnected from PayPal Zettle organization. You need to reconfigure the plugin.";
 
                                 _zettleSettings.ClientId = string.Empty;
                                 _zettleSettings.ApiKey = string.Empty;

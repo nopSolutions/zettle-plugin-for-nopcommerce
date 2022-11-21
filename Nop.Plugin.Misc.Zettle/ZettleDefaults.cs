@@ -73,6 +73,6 @@ namespace Nop.Plugin.Misc.Zettle
         /// Gets a name, type and period (in seconds) of the auto synchronization task
         /// </summary>
         public static (string Name, string Type, int Period) SynchronizationTask =>
-            ("Synchronization (Zettle plugin)", "Nop.Plugin.Misc.Zettle.Services.ZettleSyncTask", 28800);
+            ("Synchronization (PayPal Zettle plugin)", "Nop.Plugin.Misc.Zettle.Services.ZettleSyncTask", 28800);
     }
 }
